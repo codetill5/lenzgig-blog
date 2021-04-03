@@ -1,0 +1,46 @@
+.heading {
+  color: #4702b9;
+  font-weight: lighter;
+}
+
+h1 {
+  font-size: 40px;
+  color: #4702b9;
+  margin-bottom: 50px;
+}
+h4 {
+  font-weight: bolder;
+  color: gray;
+  line-height: 2px;
+}
+
+h2 {
+  color: #48484c;
+  line-height: 25px;
+}
+
+.header__img {
+  width: 45%;
+}
+
+@media (max-width: 991px) {
+    .header{
+        margin-left:16%;
+    }
+    .header__img{
+        width: 80%;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .header{
+        margin-left:5%;
+    }
+    .header__img{
+        width: 90%;
+    }
+    p{
+        width: 90%;
+    }
+}
